@@ -8,6 +8,7 @@ import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from "./components/basicos/Aleatorio"
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
+import FamiliaMembro from "./components/basicos/FamiliaMembro"
 
 //não precisa nomear usando default
 //(props); (); _ apenas um parametro
@@ -19,6 +20,9 @@ export default _ =>
         <div className="Cards">
             <Card titulo="#05 - Componente com Filhos" color="#581845">
                 <Familia sobrenome="Ferreira">
+                    <FamiliaMembro nome="Pedro" />
+                    <FamiliaMembro nome="Ana" />
+                    <FamiliaMembro nome="Gustavo" />
                 </Familia>
             </Card>
 
