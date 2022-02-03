@@ -9,6 +9,7 @@ import Aleatorio from "./components/basicos/Aleatorio"
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
 import FamiliaMembro from "./components/basicos/FamiliaMembro"
+import ListaAlunos from "./components/repeticao/ListaAlunos"
 
 //não precisa nomear usando default
 //(props); (); _ apenas um parametro
@@ -18,7 +19,11 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-            <Card titulo="#05 - Componente com Filhos" color="#581845">
+        <Card titulo="#06 - Repetição" color="#FFC300">
+                <ListaAlunos></ListaAlunos>
+            </Card>
+
+            <Card titulo="#05 - Componente com Filhos" color="#FF5733">
                 <Familia sobrenome="Ferreira">
                     <FamiliaMembro nome="Pedro" />
                     <FamiliaMembro nome="Ana" />
