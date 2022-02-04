@@ -10,6 +10,7 @@ import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
 import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
+import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 
 //não precisa nomear usando default
 //(props); (); _ apenas um parametro
@@ -19,7 +20,11 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-        <Card titulo="#06 - Repetição" color="#FFC300">
+            <Card titulo="#07 - Desafio Repetição" color="#16A085">
+                <TabelaProdutos></TabelaProdutos>
+            </Card>
+
+            <Card titulo="#06 - Repetição" color="#FFC300">
                 <ListaAlunos></ListaAlunos>
             </Card>
 
