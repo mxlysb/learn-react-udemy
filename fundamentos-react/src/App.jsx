@@ -14,6 +14,7 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 import ParOuImpar from "./components/condicional/ParOuImpar"
 import UsuarioInfo from "./components/condicional/UsuarioInfo"
 import DiretaPai from "./components/comunicacao/DiretaPai"
+import IndiretaPai from "./components/comunicacao/IndiretaPai"
 
 //não precisa nomear usando default
 //(props); (); _ apenas um parametro
@@ -23,6 +24,10 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#10 - Comunicação Indireta" color="#B9770E">
+                <IndiretaPai></IndiretaPai>
+            </Card>
+
             <Card titulo="#09 - Comunicação Direta" color="#7B241C">
                 <DiretaPai></DiretaPai>
             </Card>
