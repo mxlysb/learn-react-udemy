@@ -12,6 +12,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 import ParOuImpar from "./components/condicional/ParOuImpar"
+import UsuarioInfo from "./components/condicional/UsuarioInfo"
 
 //não precisa nomear usando default
 //(props); (); _ apenas um parametro
@@ -24,6 +25,8 @@ export default _ =>
             <Card titulo="#08 - Renderização Condicional" color="#21618C">
                 <ParOuImpar numero={20}></ParOuImpar>
                 <ParOuImpar numero={21}></ParOuImpar>
+                <UsuarioInfo usuario={{ nome: "Fernando" }} />
+                <UsuarioInfo usuario={{ email: "fer@nando.com" }} />
             </Card>
 
             <Card titulo="#07 - Desafio Repetição" color="#16A085">

@@ -6,7 +6,7 @@ export default props => {
 
     return (
         <div>
-            <p>o numero {props.numero} é { isPar ? <span>Par</span> : <span>Impar</span>}</p>
+            <p>O numero {props.numero} é { isPar ? <span>Par</span> : <span>Impar</span>}</p>
         </div>
     )
 }
