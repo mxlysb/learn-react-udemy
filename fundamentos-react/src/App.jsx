@@ -15,6 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar"
 import UsuarioInfo from "./components/condicional/UsuarioInfo"
 import DiretaPai from "./components/comunicacao/DiretaPai"
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
+import Input from "./components/formulario/Input"
 
 //não precisa nomear usando default
 //(props); (); _ apenas um parametro
@@ -24,6 +25,10 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#11 - Componente Controlado" color="#7D3C98">
+                <Input></Input>
+            </Card>
+
             <Card titulo="#10 - Comunicação Indireta" color="#B9770E">
                 <IndiretaPai></IndiretaPai>
             </Card>
