@@ -1,5 +1,4 @@
 import reducer from "./reducers"
-import { numberAdd2 } from './actions/number'
 
 const initialState = {
     cart: [],
@@ -10,5 +9,4 @@ const initialState = {
 export {
     reducer,
     initialState,
-    numberAdd2
 }
